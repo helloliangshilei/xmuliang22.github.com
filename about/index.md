@@ -1,6 +1,6 @@
 ---
 title: 赖明星(Mingxing Lai)
-layout: page
+layout: post
 comments: yes
 pagetitle: 成长的过程是痛苦的，我微笑面对
 ---

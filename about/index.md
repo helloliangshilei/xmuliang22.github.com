@@ -4,8 +4,8 @@ layout: default
 comments: yes
 pagetitle: 勇敢面对生活，绝对不枉此生
 ---
-# 梁世磊（简历）
 
+# 梁世磊（简历）
 ***
 
 # 联系方式

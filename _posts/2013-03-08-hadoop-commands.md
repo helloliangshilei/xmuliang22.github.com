@@ -1,7 +1,6 @@
 --- 
 layout: post
 title: hadoop中常用的命令
-date: 2012-03-08 16:20:23
 categories:
     - cloud computing
 tags:

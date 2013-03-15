@@ -45,55 +45,57 @@ tags:
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555223038/" title="Flickr 上 capliang 的 417379_338204149614221_1518859743_n"><img src="http://farm9.staticflickr.com/8532/8555223038_307942f9ac_c.jpg" width="800" height="533" alt="417379_338204149614221_1518859743_n"></a>
 
-小玩意
+##小玩意
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555244250/" title="Flickr 上 capliang 的 DSC00273"><img src="http://farm9.staticflickr.com/8108/8555244250_992e362753_c.jpg" width="800" height="600" alt="DSC00273"></a>
 
-i am in 九份
+##i am in 九份
 
 <a href="http://www.flickr.com/photos/94005276@N05/8554115111/" title="Flickr 上 capliang 的 72683_338195616281741_74256017_n"><img src="http://farm9.staticflickr.com/8531/8554115111_e39e4e3d07_c.jpg" width="800" height="533" alt="72683_338195616281741_74256017_n"></a>
 
-九份大合影
+##九份大合影
+
+#野柳
 
 下午3点左右去到野柳，台湾的最北端，与厦门隔海相望，水特别清，特别特别清，我就不明白，厦门的海也是东海，怎么差距就这么大了。
 
 <a href="http://www.flickr.com/photos/94005276@N05/8554115119/" title="Flickr 上 capliang 的 577943_338516062916363_1812234707_n"><img src="http://farm9.staticflickr.com/8383/8554115119_34df597c8b_c.jpg" width="800" height="533" alt="577943_338516062916363_1812234707_n"></a>
 
-蓝
+##蓝
 
 <a href="http://www.flickr.com/photos/94005276@N05/8554140171/" title="Flickr 上 capliang 的 DSC00288"><img src="http://farm9.staticflickr.com/8389/8554140171_f2c0cf6901_c.jpg" width="800" height="600" alt="DSC00288"></a>
 
-我和光华
+##我和光华
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555247404/" title="Flickr 上 capliang 的 DSC00320"><img src="http://farm9.staticflickr.com/8085/8555247404_f8a8f4d9ab_c.jpg" width="800" height="600" alt="DSC00320"></a>
 
-我和一求
+##我和一求
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555247046/" title="Flickr 上 capliang 的 DSC00343"><img src="http://farm9.staticflickr.com/8508/8555247046_81c1b08012_c.jpg" width="800" height="600" alt="DSC00343"></a>
 
-“棒球”
+##“棒球”
 
 <a href="http://www.flickr.com/photos/94005276@N05/8554138519/" title="Flickr 上 capliang 的 DSC00345"><img src="http://farm9.staticflickr.com/8528/8554138519_1c46260534_c.jpg" width="800" height="600" alt="DSC00345"></a>
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555247812/" title="Flickr 上 capliang 的 DSC00303"><img src="http://farm9.staticflickr.com/8233/8555247812_e4d1c7a1d4_c.jpg" width="800" height="600" alt="DSC00303"></a>
 
-去海边是不是都得这么干
+##去海边是不是都得这么干
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555245770/" title="Flickr 上 capliang 的 DSC00348"><img src="http://farm9.staticflickr.com/8382/8555245770_cf4a898d1e_c.jpg" width="800" height="600" alt="DSC00348"></a>
 
-野柳走你style
+##野柳走你style
 
 <a href="http://www.flickr.com/photos/94005276@N05/8554137023/" title="Flickr 上 capliang 的 DSC00352"><img src="http://farm9.staticflickr.com/8250/8554137023_eec97a4145_c.jpg" width="800" height="600" alt="DSC00352"></a>
 
-野柳最高处
+##野柳最高处
 
 <a href="http://www.flickr.com/photos/94005276@N05/8555244942/" title="Flickr 上 capliang 的 DSC00360"><img src="http://farm9.staticflickr.com/8383/8555244942_48c55049f7_c.jpg" width="800" height="600" alt="DSC00360"></a>
 
-至高点
+##至高点
 
 <a href="http://www.flickr.com/photos/94005276@N05/8554115057/" title="Flickr 上 capliang 的 406373_338514722916497_608835009_n"><img src="http://farm9.staticflickr.com/8526/8554115057_2c22bdc172_c.jpg" width="800" height="533" alt="406373_338514722916497_608835009_n"></a>
 
-欢乐野柳行，圆满结束，鼓掌！
+##欢乐野柳行，圆满结束，鼓掌！
 
 
 

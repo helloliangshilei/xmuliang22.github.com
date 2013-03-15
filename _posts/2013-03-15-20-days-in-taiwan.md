@@ -22,7 +22,7 @@ tags:
 
 首先去的是新竹，正月十五这一天，台湾的灯会在新竹开幕，很漂亮，尤其开场的时候有马英九点燃主灯和SHE演唱主题曲，遗憾的是当时离得太远，没怎么看得见。
 
-<a href="http://www.flickr.com/photos/94005276@N05/8555243472/" title="IMG_4558 by liang, on Flickr">
+<a href="http://www.flickr.com/photos/94005276@N05/8555243472/" title="IMG_4558 by liang, on Flickr"><img src="http://farm9.staticflickr.com/8310/8007200053_3a7b513150_c.jpg" width="800" height="534" alt="IMG_4199"></a>
 
 
 

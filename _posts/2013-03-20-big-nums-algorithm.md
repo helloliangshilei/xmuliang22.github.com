@@ -12,7 +12,8 @@ tags:
 - 题目来源：[xmuoj 1006](http://acm.xmu.edu.cn/JudgeOnline/problem.php?id=1006)
 大数加法，是将计算机无法直接表示的大数存储在整形数组里，如a[1001]可以表示1001位的整数。运算过程中将对应位的数依次相加，大于10的向前进位。另外一点就是对与相加的两个数的长度不同时，本算法做了分别处理，不够优化，希望能进一步改进。
 - 代码：
-  /*
+
+/*
 
 Author:Liang Shilei
 
@@ -22,9 +23,9 @@ Function:大数加法
 
 */
 
-#include<iostream>
+'#include<iostream>
 
-#include<string>
+#include<string>'
 
 using namespace std;
 

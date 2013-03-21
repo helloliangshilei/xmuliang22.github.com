@@ -83,9 +83,9 @@ tags:
 			cout<<endl;
 
 		}
-	}
-	else if(len1<len2)
-	{
+		}
+		else if(len1<len2)
+		{
 		for(i=len1-1;i>=0;i--)
 		{
 			tmp=len2-len1+i;
@@ -199,91 +199,63 @@ tags:
 
  	   {
 
-	vector<int> a,b;//采用容器来表示整数
+		vector<int> a,b;//采用容器来表示整数
+		string str1,str2;
+		cin>>str1>>str2;
 
-	string str1,str2;
+		int i,j,k,len1,len2;
 
-	cin>>str1>>str2;
+		len1=str1.size();
+		len2=str2.size();
 
-	int i,j,k,len1,len2;
+		vector<int> c(len1+len2-1);
 
-	len1=str1.size();
+		for(i=0;i<len1;i++)
+			a.push_back(str1[i]-'0');
+		for(i=0;i<len2;i++)
+			b.push_back(str2[i]-'0');
 
-	len2=str2.size();
-
-
-
-	vector<int> c(len1+len2-1);
-
-	
-
-	for(i=0;i<len1;i++)
-
-		a.push_back(str1[i]-'0');
-
-	for(i=0;i<len2;i++)
-
-		b.push_back(str2[i]-'0');
-
-
-
-	for(i=0;i<len1;i++)
-
-	{
-
-		k=i;
-
-		for(j=0;j<len2;j++)
-
-			c[k++]+=a[i]*b[j];//key point
-
-	}
-
-	for(i=c.size()-1;i>0;i--)
-
-	{
-
-		if(c[i]>=10)
-
+		for(i=0;i<len1;i++)
 		{
+			k=i;
+			for(j=0;j<len2;j++)
+				c[k++]+=a[i]*b[j];//key point
+
+		}
+	
+		for(i=c.size()-1;i>0;i--)
+		{
+			if(c[i]>=10)
+			{
 
 			c[i-1]+=c[i]/10;
-
 			c[i]%=10;
+
+			}
 
 		}
 
-	}
-
-	int tmp;
-	if(c[0]>=10)
-	{
+		int tmp;
+		if(c[0]>=10)
+		{
 
 		tmp=c[0]%10;
-
 		c.insert(c.begin(),c[0]/10);
-
 		c[1]=tmp;
+		}
 
-		
+		if(c[0]==0)//去除结果为“000”类似的输出
+			cout<<"0"<<endl;
 
-	}
-	if(c[0]==0)//去除结果为“000”类似的输出
+		else{
 
-		cout<<"0"<<endl;
-
-	else
-
-	{
-
-	for(i=0;i<c.size();i++)
-
-		cout<<c[i];
-
+		for(i=0;i<c.size();i++)
+			cout<<c[i];
 		cout<<endl;
-		}	
-		return 0;
-        } 
+			}
+	
+			return 0;
+     	   } 
 
 		
 

@@ -19,13 +19,11 @@ tags:
   	     Function:大数加法
 	     */
 
-	     #include<iostream>
+	   #include<iostream>
+	   #include<string>
+	   using namespace std;
 
-	     #include<string>
-
-	     using namespace std;
-
-	     static int flag=0;
+	   static int flag=0;
 
   	   int main()
   	   {
@@ -173,9 +171,9 @@ tags:
 			cout<<endl;
 
 		}
-	}
-	return 0;
-       }
+		}
+		return 0;
+       	}
 
 #大数乘法
 

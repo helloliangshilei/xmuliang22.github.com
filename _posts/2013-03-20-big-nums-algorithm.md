@@ -28,109 +28,68 @@ tags:
 	     static int flag=0;
 
   	   int main()
-
   	   {
+		int a[1010],b[1010],c[1010];
+		int tmp,i;
 
-	int a[1010],b[1010],c[1010];
+		string str1,str2;
 
-	int tmp,i;
+		cin>>str1>>str2;
 
+		int len1=str1.size();
+		int len2=str2.size();
 
-
-	string str1,str2;
-
-	cin>>str1>>str2;
-
-	int len1=str1.size();
-
-	int len2=str2.size();
-
-	for(i=0;i<len1;i++)
-
+		for(i=0;i<len1;i++)
 		a[i]=str1[i]-'0';
 
-	for(i=0;i<len2;i++)
+		for(i=0;i<len2;i++)
+			b[i]=str2[i]-'0';
 
-		b[i]=str2[i]-'0';
-
-	if(len1>len2)
-
-	{
-
-		for(i=len2-1;i>=0;i--)
-
+		if(len1>len2)
 		{
-
+		for(i=len2-1;i>=0;i--)
+		{
 			tmp=len1-len2+i;
-
 			c[tmp]=a[tmp]+b[i];
-
 			if(c[tmp]>=10)
-
 			{
-
 				c[tmp]=c[tmp]%10;
-
 				a[tmp-1]+=1;
-
 			}
 
 		}
-
 		for(i=len1-len2-1;i>=0;i--)
-
 		{
-
 			c[i]=a[i]%10;
-
 			if(a[i]>=10)
-
 				a[i-1]++;
 
 		}
 
 		c[0]=a[0]%10;
-
 		if(a[0]>=10)
-
 		{	
 
 			cout<<"1";
-
 			for(i=0;i<len1;i++)
-
 				cout<<c[i];
-
 			cout<<endl;
 
 		}
-
 		else
-
 		{
-
 			for(i=0;i<len1;i++)
-
 				cout<<c[i];
-
 			cout<<endl;
 
 		}
-
 	}
-
 	else if(len1<len2)
-
 	{
-
 		for(i=len1-1;i>=0;i--)
-
 		{
-
 			tmp=len2-len1+i;
-
 			c[tmp]=b[tmp]+a[i];
-
 			if(c[tmp]>=10)
 
 			{
@@ -142,37 +101,25 @@ tags:
 			}
 
 		}
-
 		for(i=len2-len1-1;i>0;i--)
-
 		{
 
 			c[i]=b[i]%10;
-
 			if(b[i]>=10)
-
 				b[i-1]++;
-
 		}
-
 		c[0]=b[0]%10;
-
 		if(b[0]>=10)
-
 		{
 
 			cout<<"1";
 
 			for(i=0;i<len2;i++)
-
 				cout<<c[i];
-
 			cout<<endl;
 
 		}
-
 		else
-
 		{
 
 			for(i=0;i<len2;i++)
@@ -180,14 +127,11 @@ tags:
 				cout<<c[i];
 
 			cout<<endl;
-
 		}
+		}
+		else
 
-	}
-
-	else
-
-	{
+		{
 
 		for(i=len1-1;i>=1;i--)
 
@@ -204,19 +148,12 @@ tags:
 				a[i-1]++;
 
 			}
-
 		}
-
 		c[0]=a[0]+b[0];
-
 		if(c[0]>=10)
-
 		{
-
 			c[0]%=10;
-
 			cout<<"1";
-
 			for(i=0;i<len1;i++)
 
 				cout<<c[i];
@@ -236,11 +173,8 @@ tags:
 			cout<<endl;
 
 		}
-
 	}
-
 	return 0;
-
        }
 
 #大数乘法
@@ -251,10 +185,10 @@ tags:
 - 代码：
 
   	  /*
-     Author:Liang Shilei
-     Time:2013-03-20
-     Function:大数乘法
-    */
+	     Author:Liang Shilei
+    	     Time:2013-03-20
+ 	     Function:大数乘法
+  	  */
 
 
 	    #include<iostream>
@@ -305,8 +239,6 @@ tags:
 
 	}
 
-
-
 	for(i=c.size()-1;i>0;i--)
 
 	{
@@ -323,12 +255,8 @@ tags:
 
 	}
 
-
-
 	int tmp;
-
 	if(c[0]>=10)
-
 	{
 
 		tmp=c[0]%10;
@@ -340,9 +268,6 @@ tags:
 		
 
 	}
-
-
-
 	if(c[0]==0)//去除结果为“000”类似的输出
 
 		cout<<"0"<<endl;
@@ -355,13 +280,10 @@ tags:
 
 		cout<<c[i];
 
-	cout<<endl;
-
-	}
-
-	return 0;
-
-   	  } 
+		cout<<endl;
+		}	
+		return 0;
+        } 
 
 		
 

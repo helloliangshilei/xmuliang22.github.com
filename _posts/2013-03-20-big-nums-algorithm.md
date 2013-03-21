@@ -13,23 +13,23 @@ tags:
 大数加法，是将计算机无法直接表示的大数存储在整形数组里，如a[1001]可以表示1001位的整数。运算过程中将对应位的数依次相加，大于10的向前进位。另外一点就是对与相加的两个数的长度不同时，本算法做了分别处理，不够优化，希望能进一步改进。
 - 代码：
 
-     /*
-     Author:Liang Shilei
-     Time:2013-03-19
-     Function:大数加法
-     */
+	     /*
+	     Author:Liang Shilei
+	     Time:2013-03-19
+  	     Function:大数加法
+	     */
 
-     #include<iostream>
+	     #include<iostream>
 
-     #include<string>
+	     #include<string>
 
-     using namespace std;
+	     using namespace std;
 
-     static int flag=0;
+	     static int flag=0;
 
-     int main()
+  	   int main()
 
-     {
+  	   {
 
 	int a[1010],b[1010],c[1010];
 
@@ -250,29 +250,20 @@ tags:
 
 - 代码：
 
-    /*
-
+  	  /*
      Author:Liang Shilei
-
      Time:2013-03-20
-
      Function:大数乘法
-
     */
 
 
+	    #include<iostream>
+	    #include<string>	
+	    #include<vector>
+	    using namespace std;
+	    int main()
 
-    #include<iostream>
-
-    #include<string>
-
-    #include<vector>
-
-    using namespace std;
-
-    int main()
-
-    {
+ 	   {
 
 	vector<int> a,b;//采用容器来表示整数
 
@@ -370,7 +361,7 @@ tags:
 
 	return 0;
 
-     } 
+   	  } 
 
 		
 

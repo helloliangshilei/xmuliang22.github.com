@@ -29,7 +29,7 @@ tags:
 
      int main()
 
-{
+     {
 
 	int a[1010],b[1010],c[1010];
 
@@ -241,7 +241,7 @@ tags:
 
 	return 0;
 
-}
+       }
 
 #大数乘法
 
@@ -249,29 +249,30 @@ tags:
 大数的表示放法同上，同样采用整形数组的形式，另外也可以采用字符串的形式来存储。做乘法运算时从高位向地位做乘法运算，暂时将运算的结果保存在相应的位里。运算完毕以后，对各个为进行进位运算（大数加法也可以采用此种思路），过程比较简洁。并且两个数的乘法的结果的长度要么是两个数的长度之和，要么是长度之和减一.
 
 - 代码：
-/*
 
-Author:Liang Shilei
+    /*
 
-Time:2013-03-20
+     Author:Liang Shilei
 
-Function:大数乘法
+     Time:2013-03-20
 
-*/
+     Function:大数乘法
+
+    */
 
 
 
-#include<iostream>
+    #include<iostream>
 
-#include<string>
+    #include<string>
 
-#include<vector>
+    #include<vector>
 
-using namespace std;
+    using namespace std;
 
-int main()
+    int main()
 
-{
+    {
 
 	vector<int> a,b;//采用容器来表示整数
 
@@ -369,7 +370,7 @@ int main()
 
 	return 0;
 
-}
+     } 
 
 		
 

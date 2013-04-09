@@ -15,10 +15,10 @@ tags:
 
 #将程序打包成jar文件的方法
 - **第一步:** 编写源程序,例如test.java,存放的是要被执行的源代码;
-	vim test.java
+	vim test.java 
 
 - **第二步:** 编译源程序,很简单,利用javac test.java,编译生成test.class文件,但针对于hadoop的程序,这样可是不行的,需要将关于hadoop下的jar包include进来,此jar包存放在hadoop的安装目录下,名称为hadoop-*(版本号)-core.jar.所以完整的命令如下所示:
-	javac -classpath path/to/hadoop/hadoop-*-core.jar test.java
+	javac -classpath path/to/hadoop/hadoop-*-core.jar test.java 
 
 或者,当编译出来多个class文件的时候,将它们置于同一目录下:
 	javac -classpath path/to/hadoop/hadoop-*-core.jar -d DIR(文件名) test.java
@@ -34,14 +34,14 @@ tags:
 
 #jar包在hadoop下的运行
 - **命令格式**
-	path/to/bin/hadoop jar jar包 mainclass 参数
+	path/to/bin/hadoop jar jar包 mainclass 参数 
 
 
 后记,今天程序打包好以后,但是在启动hadoop时的时候namenode和datenode老是起不来,花了很多时间来解决.
 
 - namenode起不来
 需要重新格式化在core-site.xml中配置的文件,命令
-	hadoop namenode -format
+	hadoop namenode -format 
 
 - datenode起不来
 需要手动删除core-site.xml配置的文件下的所有文件,然后重新格式化文件系统.

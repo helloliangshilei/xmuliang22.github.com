@@ -15,18 +15,23 @@ tags:
 
 #将程序打包成jar文件的方法
 - **第一步:** 编写源程序,例如test.java,存放的是要被执行的源代码;
-        	vim test.java 
+
+	vim test.java 
 
 - **第二步:** 编译源程序,很简单,利用javac test.java,编译生成test.class文件,但针对于hadoop的程序,这样可是不行的,需要将关于hadoop下的jar包include进来,此jar包存放在hadoop的安装目录下,名称为hadoop-*(版本号)-core.jar.所以完整的命令如下所示:
-        	javac -classpath path/to/hadoop/hadoop-*-core.jar test.java 
+
+	javac -classpath path/to/hadoop/hadoop-*-core.jar test.java 
 
 或者,当编译出来多个class文件的时候,将它们置于同一目录下:
+
 	javac -classpath path/to/hadoop/hadoop-*-core.jar -d DIR(文件名) test.java
 
 - **第三步:** 将编译完成的class文件打包成jar包,格式为 jar -cvfm jar文件名 manifest.mf文件 class文件,关于manifest.mf文件,它是jar文件的配置文件,可以用别的名称,但后缀名必须是.mf,里面的内容主要是用来指定主类名,用来指示程序的入口,例如 Main-Class: test.:后必须有一个空格,
+
 	jar -cvfm test.jar manifest.mf test.class
 
 当含有多个class文件位于同一目录下的时候,可以这样来写:
+
 	jar -cvf test.jar -C DIR(class文件的存放目录)
 
 这种方法就无须编写manifest文件,但只有一个class文件的时候采用此方法会产生错误,需要手动更改自动生成的manifest文件.
@@ -34,6 +39,7 @@ tags:
 
 #jar包在hadoop下的运行
 - **命令格式**
+
         	  path/to/bin/hadoop jar jar包 mainclass 参数 
 
 
@@ -41,6 +47,7 @@ tags:
 
 - namenode起不来
 需要重新格式化在core-site.xml中配置的文件,命令
+
         	hadoop namenode -format 
 
 - datenode起不来

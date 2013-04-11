@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 春假之垦丁-高雄-日月谭(一)
+title: 春假之垦丁-高雄-日月潭(一)
 categories:
     - life
 tags:

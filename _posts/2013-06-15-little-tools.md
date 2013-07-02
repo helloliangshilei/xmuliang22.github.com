@@ -25,6 +25,28 @@ tags:
 	git commit -m"some message" （从工作区提交到暂存区）
 	git push （推送到远程版本库）
 
+#ubuntu12.04 ustc源
+
+- **第一步：** 修改更新源
+
+	vim /etc/apt/sources.list
+
+- **第二步：** ustc源
+
+	deb http://debian.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
+	deb http://debian.ustc.edu.cn/ubuntu/ precise-backports restricted universe multiverse
+	deb http://debian.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
+	deb http://debian.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
+	deb http://debian.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+	deb-src http://debian.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
+	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
+	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
+	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
+	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+
+- **第三步：** 更新
+
+	apt-get update
 
 
 

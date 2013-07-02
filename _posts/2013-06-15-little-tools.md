@@ -31,31 +31,22 @@ tags:
 
 	vim /etc/apt/sources.list
 
-- **第二步：** ustc源
+- **第二步：** 厦大源
 
-	deb http://debian.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
-	deb http://debian.ustc.edu.cn/ubuntu/ precise-backports restricted universe multiverse
-	deb http://debian.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
-	deb http://debian.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
-	deb http://debian.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
-	deb-src http://debian.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
-	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
-	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
-	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
-	deb-src http://debian.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+	deb http://mirrors.xmu.edu.cn/ubuntu/archive/ precise main restricted universe multiverse
+	deb http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-backports restricted universe multiverse
+	deb http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-proposed main restricted universe multiverse
+	deb http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-security main restricted universe multiverse
+	deb http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-updates main restricted universe multiverse
+	deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ precise main restricted universe multiverse
+	deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-backports main restricted universe multiverse
+	deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-proposed main restricted universe multiverse
+	deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-security main restricted universe multiverse
+	deb-src http://mirrors.xmu.edu.cn/ubuntu/archive/ precise-updates main restricted universe multiverse
 
 - **第三步：** 更新
-
+	
 	apt-get update
-
-
-
-
-
-
-
-
-
 
 
 

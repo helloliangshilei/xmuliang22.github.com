@@ -15,7 +15,7 @@ tags:
 	
 	apt-get install git
 
-- **第二步：** clone版本库
+- **第二步：** clone版本库（https://github.com/xmuliang/xmuliang.github.com.git）
 
 	git clone [url]
 
@@ -25,7 +25,7 @@ tags:
 	git commit -m"some message" （从工作区提交到暂存区）
 	git push （推送到远程版本库）
 
-#ubuntu12.04 ustc源
+#ubuntu12.04 厦大源
 
 - **第一步：** 修改更新源
 

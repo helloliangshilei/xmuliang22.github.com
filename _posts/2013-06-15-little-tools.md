@@ -60,6 +60,7 @@ tags:
 - **第一项：** java.lang.OutOfMemoryError:Java heap space
 
 	window->Preferences->Java->Installed JREs
+
 	edit:-Xms128M -Xmx512M
 
 - **第二项：** 添加桌面启动图标
@@ -73,7 +74,7 @@ tags:
 	Name=Eclipse
 	Comment=Eclipse Integrated Development Environment
 	Icon=/usr/eclipse/icon.xpm
-	Exec=/usr/eclipse/eclipse -vm /usr/jdk/bin
+	Exec=/usr/eclipse/eclipse
 	Terminal=false
 	Categories=Development;IDE;Java;
 

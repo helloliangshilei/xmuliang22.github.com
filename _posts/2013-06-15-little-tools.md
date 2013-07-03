@@ -55,6 +55,29 @@ tags:
 	export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 	export CLASSPATH=.:$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/lib
 
+# eclipse
+
+- **第一项：** java.lang.OutOfMemoryError:Java heap space
+
+	window->Preferences->Java->Installed JREs
+	edit:-Xms128M -Xmx512M
+
+- **第二项：** 添加桌面启动图标
+	
+	vim /usr/share/applications/eclipse.desktop
+
+	添加:
+	
+	[Desktop Entry]
+	Type=Application
+	Name=Eclipse
+	Comment=Eclipse Integrated Development Environment
+	Icon=/usr/eclipse/icon.xpm
+	Exec=/usr/eclipse/eclipse -vm /usr/jdk/bin
+	Terminal=false
+	Categories=Development;IDE;Java;
+
+
 
 
 

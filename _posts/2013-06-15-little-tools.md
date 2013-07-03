@@ -9,7 +9,7 @@ tags:
 
 在这里记录一些常用的命令，省得每次用到的时候还要去找，提高效率。
 
-#git和github上搭建个人博客
+# git和github上搭建个人博客
 
 - **第一步：** 安装git 
 	
@@ -25,7 +25,7 @@ tags:
 	git commit -m"some message" （从工作区提交到暂存区）
 	git push （推送到远程版本库）
 
-#ubuntu12.04 厦大源
+# ubuntu12.04 厦大源
 
 - **第一步：** 修改更新源
 
@@ -48,6 +48,12 @@ tags:
 	
 	apt-get update
 
+# 设置jdk环境变量(linux)
+
+	export JAVA_HOME=/usr/jdk
+	export JRE_HOME=/usr/jdk/jre
+	export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+	export CLASSPATH=.:$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/lib
 
 
 

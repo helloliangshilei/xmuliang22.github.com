@@ -12,6 +12,8 @@ JobConf的配置：
 
 - setInputFormat：设置map的输入格式，默认为TextInputFormat，key为LongWritable, value为Text
 
+----------
+
 <table>
     <tr>
         <td>输入格式</td>
@@ -48,9 +50,13 @@ JobConf的配置：
 
 
 
+----------
+
 - setOutputFormat：提供给OutputCollector的键值对会被写到输出文件中，写入的方式由输出格式控制。OutputFormat的功能跟前面描述的InputFormat类很像，Hadoop提供的OutputFormat的实例会把文件写在本地磁盘或HDFS上，它们都是继承自公共的FileInputFormat类。每一个reducer会把结果输出写在公共文件夹中一个单独的文件内，这些文件的命名一般是part-nnnnn，nnnnn是关联到某个reduce任务的partition的id，输出文件夹通过FileOutputFormat.setOutputPath() 来设置。你可以通过具体MapReduce作业的JobConf对象的setOutputFormat()方法来设置具体用到的输出格式。
 
 	默认输出格式是TextOuputFormat,它把每条记录写到文本行。它的键和值可以是任意类型。因为TextOutputFormat调用toString()方法把他们转换为字符串。每个键/值由制表符进行分割。
+
+----------
 
 <table>
     <tr>
@@ -71,6 +77,8 @@ JobConf的配置：
     </tr>
 </table>
 
+
+----------
 
 
 

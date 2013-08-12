@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: opencv里图像的输入与输出
+title: mahout导入到eclipse
 categories:
     - study
 tags:
@@ -24,7 +24,7 @@ mahout源代码是构建过程，用到maven(项目管理工具)。
 
 - 第二步：设置仓库的位置，里面存放项目所依赖的jar包。
 
-![repo]("/mypicture/repo.png")
+![repo](/mypicture/repo.jpg)
 
 
 
